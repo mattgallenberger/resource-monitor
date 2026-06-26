@@ -1,9 +1,11 @@
 #include <iostream>
+#include "../include/ring_buffer.h"
 
 int main(){
 
-    std::cout << "Hello World." << "\n";
+    ringBuffer<int, 5> buffer;
 
+    std::cout << buffer.isFull() << "\n";
 
     return 0;
 }
