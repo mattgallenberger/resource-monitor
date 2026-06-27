@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/mattgallenberger/development/cpp-projects/resource-manager-project/src/main'
+relocations:     []
+...
